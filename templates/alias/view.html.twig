@@ -1,0 +1,35 @@
+<div class="container">
+    {% include 'base.html.twig' %}
+<h1>Alias</h1>
+{% if alias.isExpired %}
+    <div class="alert alert-warning">This alias is expired</div>
+{% endif %}
+<ul>
+    <li>originalLink: <a href="{{ alias.originalLink }}">{{ alias.originalLink }}</a></li>
+    <li>Alias:
+        <a href="{{ url('redirect_to_origin', {'alias': alias.alias }) }}">
+            {{ url('redirect_to_origin', {'alias': alias.alias }) }}
+        </a>
+    </li>
+    {% if alias.useExpire %}
+        <li>Expired: {{ alias.expired.format('Y-m-d H:i:s') }}</li>
+    {% endif %}
+</ul>
+
+    <h2>Alias statistic</h2>
+    <div class="row">
+        <div class="col-1">Expired</div>
+        <div class="col-4">UserIp</div>
+        <div class="col-5">UserAgent</div>
+        <div class="col-2">DateTime</div>
+    </div>
+    <hr>
+    {% for row in alias.statistic %}
+        <div class="row">
+            <div class="col-1">{{ row.expired? 'Yes' : 'No' }}</div>
+            <div class="col-4">{{ row.userIp }}</div>
+            <div class="col-5">{{ row.userAgent }}</div>
+            <div class="col-2">{{ row.dtCreated.format('Y-m-d H:i:s') }}</div>
+        </div>
+    {% endfor %}
+</div>
