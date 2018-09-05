@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66319a77-5bf6-45a7-bd5e-529b3a2c0334" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AliasController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/DateCreatedTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/LinkAlias.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/LinkAliasStatistic.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/LinkAliasType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/alias/link-form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/alias/view.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/LinkAlias.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/LinkAlias.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,7 +56,7 @@
       <file leaf-file-name="AliasController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/AliasController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="576">
               <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
               <folding>
                 <element signature="e#59#84#0#PHP" expanded="true" />
@@ -96,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.html.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="view.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/alias/view.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="558">
               <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
             </state>
           </provider>
@@ -171,11 +163,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkAlias.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LinkAlias.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Entity/LinkAlias.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" selection-start-line="20" selection-end-line="23" />
+            <state relative-caret-position="396">
+              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
               <folding>
                 <element signature="e#55#103#0#PHP" expanded="true" />
               </folding>
@@ -282,11 +274,11 @@
         <option value="$PROJECT_DIR$/src/Form/LinkAliasType.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Controller/AliasController.php" />
-        <option value="$PROJECT_DIR$/src/Entity/LinkAlias.php" />
         <option value="$PROJECT_DIR$/src/Entity/DateTimeTrait.php" />
         <option value="$PROJECT_DIR$/src/Entity/DateCreatedTrait.php" />
         <option value="$PROJECT_DIR$/src/Entity/LinkAliasStatistic.php" />
         <option value="$PROJECT_DIR$/templates/alias/view.html.twig" />
+        <option value="$PROJECT_DIR$/src/Entity/LinkAlias.php" />
       </list>
     </option>
   </component>
@@ -507,12 +499,12 @@
       <workItem from="1535963303740" duration="7300000" />
       <workItem from="1536093420225" duration="4863000" />
       <workItem from="1536098328176" duration="3587000" />
-      <workItem from="1536102071185" duration="9733000" />
+      <workItem from="1536102071185" duration="10452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29022000" />
+    <option name="totallyTimeSpent" value="29741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -521,12 +513,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.3297414" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.3297414" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2498618" />
+      <window_info anchor="bottom" id="Database Console" weight="0.3297414" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2498618" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.32946378" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -873,30 +865,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AliasController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
-          <folding>
-            <element signature="e#59#84#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/DateCreatedTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/LinkAlias.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" selection-start-line="20" selection-end-line="23" />
-          <folding>
-            <element signature="e#55#103#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -919,8 +891,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/alias/view.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="558">
           <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AliasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+          <folding>
+            <element signature="e#59#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/LinkAlias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="e#55#103#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

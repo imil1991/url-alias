@@ -38,7 +38,7 @@ class LinkAlias
 
     /**
      * @var string
-     * @ORM\Column(type="string", length=8)
+     * @ORM\Column(type="string", length=13)
      */
     private $alias;
 
